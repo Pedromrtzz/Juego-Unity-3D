@@ -1,20 +1,25 @@
 ﻿<Properties StartupConfiguration="{6E85DF46-EFE9-A13F-EE18-4289498D5609}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MovimientoPersonaje.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RotatingTrap.cs">
     <Files>
       <File FileName="Assets/Scripts/MovimientoPersonaje.cs" Line="58" Column="38" />
-      <File FileName="Assets/Scripts/Pies.cs" Line="28" Column="49" />
+      <File FileName="Assets/Scripts/Pies.cs" />
+      <File FileName="Assets/Scripts/RotatingTrap.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="juego-unity-3d" expanded="True" selected="True" />
+          <Node name="juego-unity-3d" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8c91056b-acac-491c-8bd7-53ec0297e5e5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ac095197-72a4-4077-b361-fb2be5a77ed2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
