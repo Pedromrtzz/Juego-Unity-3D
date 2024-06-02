@@ -351,6 +351,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Scripts/SimpleCameraController.cs"
 "Assets/Scripts/MovimientoPersonaje.cs"
 "Assets/Scripts/Pies.cs"
 -langversion:9.0
