@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Scripts/SimpleCameraController.cs" />
+    <Compile Include="Assets/Scripts/RotatingTrap.cs" />
     <Compile Include="Assets/Scripts/MovimientoPersonaje.cs" />
     <Compile Include="Assets/Scripts/Pies.cs" />
   </ItemGroup>
