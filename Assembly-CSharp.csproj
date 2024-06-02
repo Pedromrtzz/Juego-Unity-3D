@@ -64,6 +64,7 @@
     <Compile Include="Assets/Scripts/RotatingTrap.cs" />
     <Compile Include="Assets/Scripts/MovimientoPersonaje.cs" />
     <Compile Include="Assets/Scripts/Pies.cs" />
+    <Compile Include="Assets/Scripts/MazoAsesino.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/POLY STYLE - Platformer Starter Pack/Readme.txt" />
