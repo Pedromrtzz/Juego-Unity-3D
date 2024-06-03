@@ -356,9 +356,11 @@
 "Assets/Scripts/MovimientoPersonaje.cs"
 "Assets/Scripts/Muerte.cs"
 "Assets/Scripts/Pies.cs"
+"Assets/Scripts/PingpONG.cs"
 "Assets/Scripts/PlataformaCaer.cs"
 "Assets/Scripts/RotatingTrap.cs"
 "Assets/Scripts/TiltingPlatform.cs"
+"Assets/Scripts/Trampolín.cs"
 -langversion:9.0
 /deterministic
 /optimize+

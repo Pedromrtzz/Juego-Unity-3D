@@ -64,7 +64,9 @@
     <Compile Include="Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/Scripts/TiltingPlatform.cs" />
     <Compile Include="Assets/Scripts/RotatingTrap.cs" />
+    <Compile Include="Assets/Scripts/Trampolín.cs" />
     <Compile Include="Assets/Scripts/MovimientoPersonaje.cs" />
+    <Compile Include="Assets/Scripts/PingpONG.cs" />
     <Compile Include="Assets/Scripts/Pies.cs" />
     <Compile Include="Assets/Scripts/MazoAsesino.cs" />
     <Compile Include="Assets/Scripts/Muerte.cs" />
