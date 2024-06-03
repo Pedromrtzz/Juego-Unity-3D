@@ -60,11 +60,14 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/PlataformaCaer.cs" />
     <Compile Include="Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Scripts/SimpleCameraController.cs" />
+    <Compile Include="Assets/Scripts/TiltingPlatform.cs" />
     <Compile Include="Assets/Scripts/RotatingTrap.cs" />
     <Compile Include="Assets/Scripts/MovimientoPersonaje.cs" />
     <Compile Include="Assets/Scripts/Pies.cs" />
     <Compile Include="Assets/Scripts/MazoAsesino.cs" />
+    <Compile Include="Assets/Scripts/Muerte.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/POLY STYLE - Platformer Starter Pack/Readme.txt" />
