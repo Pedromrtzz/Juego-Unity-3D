@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54278
+54683
 Successfully changed project path to: /Users/pedromrtz/Desktop/Juego 3d/juego-unity-3d
 /Users/pedromrtz/Desktop/Juego 3d/juego-unity-3d
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/pedromrtz/Desktop/Juego 3d/juego-un
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8776581696] Host "[IP] 192.168.1.193 [Port] 0 [Flags] 2 [Guid] 3488153633 [EditorId] 3488153633 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Pedro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8716231232] Host "[IP] 192.168.1.193 [Port] 0 [Flags] 2 [Guid] 953355074 [EditorId] 953355074 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Pedro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8776581696] Host "[IP] 192.168.1.193 [Port] 0 [Flags] 2 [Guid] 3488153633 [EditorId] 3488153633 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Pedro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8716231232] Host "[IP] 192.168.1.193 [Port] 0 [Flags] 2 [Guid] 953355074 [EditorId] 953355074 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Pedro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 12.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 9.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56813
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56895
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001915 seconds.
-- Loaded All Assemblies, in  0.485 seconds
+Registered in 0.000910 seconds.
+- Loaded All Assemblies, in  0.520 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.855 seconds
-Domain Reload Profiling: 1342ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1391ms
+	BeginReloadAssembly (202ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (190ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (111ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (120ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (857ms)
+	FinalizeReload (872ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (737ms)
+		SetupLoadedEditorAssemblies (748ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (513ms)
-			ProcessInitializeOnLoadMethodAttributes (176ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,57 +121,124 @@ Domain Reload Profiling: 1342ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.882 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.850 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.592 seconds
-Domain Reload Profiling: 2476ms
-	BeginReloadAssembly (276ms)
+- Finished resetting the current domain, in  1.590 seconds
+Domain Reload Profiling: 2442ms
+	BeginReloadAssembly (267ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (33ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (469ms)
-		LoadAssemblies (411ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (393ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (126ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1593ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1591ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1267ms)
+		SetupLoadedEditorAssemblies (1287ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (1045ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (1083ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.30f1-x86_64/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.26 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.43 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (51.7 KB). Loaded Objects now: 3557.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (51.6 KB). Loaded Objects now: 3558.
 Memory consumption went from 123.7 MB to 123.7 MB.
-Total: 3.288375 ms (FindLiveObjects: 0.184541 ms CreateObjectMapping: 0.080833 ms MarkObjects: 2.917500 ms  DeleteObjects: 0.104917 ms)
+Total: 6.541833 ms (FindLiveObjects: 0.277375 ms CreateObjectMapping: 0.103458 ms MarkObjects: 5.429583 ms  DeleteObjects: 0.730583 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: aabfd3f3a18f42cedd914a0573d1c418 -> e0866148a96f284b4533971e26240925
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs:  -> b21687ddb03d73bd9f0c1daecb9714de
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.647 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.838 seconds
+Domain Reload Profiling: 2487ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (267ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (970ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3561.
+Memory consumption went from 127.2 MB to 127.2 MB.
+Total: 2.765208 ms (FindLiveObjects: 0.188708 ms CreateObjectMapping: 0.072208 ms MarkObjects: 2.457000 ms  DeleteObjects: 0.046583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -187,646 +254,208 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20529.170394 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials
-  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd296b4a7013025ecd272d3135908280b') in 0.004015 seconds
+  Time since last request: 23792.663515 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(25a04e45d38e44b38acdaa4aaf510fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(25a04e45d38e44b38acdaa4aaf510fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653d38a3a1bbb27aa94affb8e5a3426f') in 0.005064 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art
-  artifactKey: Guid(679bbe32338fbe8418aa52d1eb89c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art using Guid(679bbe32338fbe8418aa52d1eb89c1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07ff1f374814ad5310b8286663f9502') in 0.000191 seconds
+  Time since last request: 7.217118 seconds.
+  path: Assets/Scripts/RotatingTrap.cs
+  artifactKey: Guid(25a04e45d38e44b38acdaa4aaf510fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotatingTrap.cs using Guid(25a04e45d38e44b38acdaa4aaf510fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9b2606fe9ebd012cfe554b1414f05a') in 0.004499 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8318d3de417f7daddbb498e2cc27e523') in 0.711086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.151854 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs
-  artifactKey: Guid(fba63d9ffc5030f42b8c80155ee9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs using Guid(fba63d9ffc5030f42b8c80155ee9e1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcc0ada6a384dfce77de42a4816572') in 0.000496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.566809 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/DemoScene
-  artifactKey: Guid(e1dffa31a3a1e9440bb3cc1995515268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/DemoScene using Guid(e1dffa31a3a1e9440bb3cc1995515268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1148d073248084bf32a3d43330c331f7') in 0.000692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.122958 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/DemoScene/DemoScene.prefab
-  artifactKey: Guid(74e8e1c76d258bc4c9f071738ea495aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/DemoScene/DemoScene.prefab using Guid(74e8e1c76d258bc4c9f071738ea495aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a834b4ea61c8ab419ee90ffc6f96747d') in 0.118235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 318
-========================================================================
-Received Import Request.
-  Time since last request: 2.441156 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments
-  artifactKey: Guid(79032e343aa0fc44e9b0b45b017c3c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments using Guid(79032e343aa0fc44e9b0b45b017c3c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e34a049551345ef4f507effd3210e3') in 0.001234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.884938 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Bridge_A.prefab
-  artifactKey: Guid(8e0a147d9af72a949bc3c30dff6603d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Bridge_A.prefab using Guid(8e0a147d9af72a949bc3c30dff6603d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846684550e79960830920cfdd7b77c89') in 0.018008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ocean.prefab
-  artifactKey: Guid(fdeb14b6b1d857a4e97752d1f07b49b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ocean.prefab using Guid(fdeb14b6b1d857a4e97752d1f07b49b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204497e687570664604a44304a3391f2') in 0.006600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_13.prefab
-  artifactKey: Guid(e6f02d823d94dd743b3f443f86abfc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_13.prefab using Guid(e6f02d823d94dd743b3f443f86abfc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfdbd614c8cfc3aee3e51994ba5fcdb') in 0.006539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_G1.prefab
-  artifactKey: Guid(4caec93c49ab5b34593a7cdc71d23e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_G1.prefab using Guid(4caec93c49ab5b34593a7cdc71d23e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7a00d62e1d8805c87908023d62c552') in 0.006199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_3.prefab
-  artifactKey: Guid(e1f3eb9b7c62ede409fa1a4d6770ef88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_3.prefab using Guid(e1f3eb9b7c62ede409fa1a4d6770ef88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a756b37eb4d7337a24a5658edc670e92') in 0.004758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_9.prefab
-  artifactKey: Guid(380287f50b6d85c44a78fc73bcd3bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_9.prefab using Guid(380287f50b6d85c44a78fc73bcd3bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06241f9383d07a3da660651af1b3ee76') in 0.005456 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Stone_1.prefab
-  artifactKey: Guid(b0035cc3b5e6130448e28efdaf06b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Stone_1.prefab using Guid(b0035cc3b5e6130448e28efdaf06b319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49385b066634a68652696d727dbc6178') in 0.006201 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_6.prefab
-  artifactKey: Guid(bcdb601ee0e1144478b160e8530cefa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_6.prefab using Guid(bcdb601ee0e1144478b160e8530cefa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ac1496a4293ee94346a76db49265af') in 0.004484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_H.prefab
-  artifactKey: Guid(f9028a1015685ce4795e21831f327fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_H.prefab using Guid(f9028a1015685ce4795e21831f327fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11b506470721c71f03a0c8f2e173f35') in 0.004511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_E1.prefab
-  artifactKey: Guid(f09d76e28c315d442b4a6f6bc6ff9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_E1.prefab using Guid(f09d76e28c315d442b4a6f6bc6ff9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1200ed50e74a58a9e61ac6cbc7f873') in 0.005772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_4.prefab
-  artifactKey: Guid(04a77e7e43a79ed478e212e4f5ede12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_4.prefab using Guid(04a77e7e43a79ed478e212e4f5ede12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be100c6c7fec5f5b51f4cfc76652f59') in 0.006561 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_D1.prefab
-  artifactKey: Guid(71f3a5a4e9a4f0c4e987e096c37a96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_D1.prefab using Guid(71f3a5a4e9a4f0c4e987e096c37a96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4af021e7183dc49b7c4a3d42214b07') in 0.008714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_B2.prefab
-  artifactKey: Guid(14f5723f491c5a64d914851138ec166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_B2.prefab using Guid(14f5723f491c5a64d914851138ec166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5408ba522c11ea67d424703bffd347c') in 0.004528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_C1.prefab
-  artifactKey: Guid(a8aa1fcb3ef5b1843afd3311ea052a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_C1.prefab using Guid(a8aa1fcb3ef5b1843afd3311ea052a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f897a3c805e5b8d8b5f0c319aa7d29a2') in 0.005548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_D2.prefab
-  artifactKey: Guid(f3e32ecb9bd57bc40ba45c6c55989484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_D2.prefab using Guid(f3e32ecb9bd57bc40ba45c6c55989484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f318d55a2781e4ea40bbbd2941139a37') in 0.006064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_5.prefab
-  artifactKey: Guid(9c41d981db5f5c14c8a3c97fa7093eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_5.prefab using Guid(9c41d981db5f5c14c8a3c97fa7093eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3aa6077457853e11436197c9f0bf59') in 0.007394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_10.prefab
-  artifactKey: Guid(524443b7797344d49a3a83c3cf3e0a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_10.prefab using Guid(524443b7797344d49a3a83c3cf3e0a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b9a0d627e08e057bc5df0d003b9ac0') in 0.007379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_8.prefab
-  artifactKey: Guid(167742c9202c0fd4da31d23fa9992363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_8.prefab using Guid(167742c9202c0fd4da31d23fa9992363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335425c1731881f3a07bf546061c5e1f') in 0.004018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_15.prefab
-  artifactKey: Guid(34351fb8b2ad12e44aecfdd6a3a0a73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_15.prefab using Guid(34351fb8b2ad12e44aecfdd6a3a0a73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45673b25c7321d4181d3229a9abd1df') in 0.004367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_2.prefab
-  artifactKey: Guid(bd95c52d6828fdf42b8081bed36bc037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_2.prefab using Guid(bd95c52d6828fdf42b8081bed36bc037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d78f97290dc95f0eb3d82d9d257c58') in 0.006572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_C2.prefab
-  artifactKey: Guid(4de7a2a67eaf3294aba3f667e530de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_C2.prefab using Guid(4de7a2a67eaf3294aba3f667e530de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7ba0c041427bb6b47d0c6ed628a82b') in 0.007938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_12.prefab
-  artifactKey: Guid(0598a034c1b3d474e97ba38920f3ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_12.prefab using Guid(0598a034c1b3d474e97ba38920f3ecc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ba34f794d4d2ab159db112970d8253') in 0.007765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_1.prefab
-  artifactKey: Guid(e898f64f4bb313b4093714a7f5141831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_1.prefab using Guid(e898f64f4bb313b4093714a7f5141831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac639ba019cb824dede7d5d53cd860b') in 0.004664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_G2.prefab
-  artifactKey: Guid(cb219fb371521054188c0bae8153e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_G2.prefab using Guid(cb219fb371521054188c0bae8153e9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778607d9a64a192818d9cc4ac0b36acb') in 0.004183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_E2.prefab
-  artifactKey: Guid(b842aee6341024f4589ba59ff0ddc909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_E2.prefab using Guid(b842aee6341024f4589ba59ff0ddc909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776a4d4ddbde1c237cf74d57e4f4d759') in 0.006049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_16.prefab
-  artifactKey: Guid(93ef5b4daf54ac14f81e0772961bf7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_16.prefab using Guid(93ef5b4daf54ac14f81e0772961bf7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec96eeed4961dab9461614917130b4e') in 0.004380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_14.prefab
-  artifactKey: Guid(d2be97095b8b6714481f3b961928dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_14.prefab using Guid(d2be97095b8b6714481f3b961928dd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fcd239f0a911da4e7c725537977bb2') in 0.004283 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_A.prefab
-  artifactKey: Guid(951feb579e3b39140b4fe8b330bf1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_A.prefab using Guid(951feb579e3b39140b4fe8b330bf1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5265ea45310a3920c29d2ecf06cc5f54') in 0.006977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_11.prefab
-  artifactKey: Guid(2cfd87436f82f694cb1ed07e801a4415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_11.prefab using Guid(2cfd87436f82f694cb1ed07e801a4415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5e2fc8b50c3efdd3731790979ab0ed') in 0.007150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_F.prefab
-  artifactKey: Guid(20e0fa8e0cb7c1643895985f8d5b14d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_F.prefab using Guid(20e0fa8e0cb7c1643895985f8d5b14d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95c9c29211d9c5111fd225a8d33f0a6') in 0.007044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_7.prefab
-  artifactKey: Guid(de3df4a73a200dd4aab4b967d8702018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Props_7.prefab using Guid(de3df4a73a200dd4aab4b967d8702018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad8fcc24be5280ad539d16c1dc44bc3') in 0.006589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_B1.prefab
-  artifactKey: Guid(efbe4c2311392ab44bbbcb00005f5693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Ground_B1.prefab using Guid(efbe4c2311392ab44bbbcb00005f5693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a458f173c3c2bc0865551a3c326e6165') in 0.007448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 9.524423 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures
-  artifactKey: Guid(d15ac5b27badac44e9535c7f31e5922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures using Guid(d15ac5b27badac44e9535c7f31e5922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673c79612c418190bf292756929c3064') in 0.000784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.038971 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures/Land.png
-  artifactKey: Guid(160973fa57fae734c94490fde7de1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures/Land.png using Guid(160973fa57fae734c94490fde7de1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7123479e33b3477a66c5a01f754f6957') in 0.044364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures/Tree-1.png
-  artifactKey: Guid(873128cb2561cd44181c5b4ea07410b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures/Tree-1.png using Guid(873128cb2561cd44181c5b4ea07410b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8491d7b3adf4d174dddef6c38bfbc34f') in 0.005656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures/Tree-2.png
-  artifactKey: Guid(30837d99204c267469790c935fcc77af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Textures/Tree-2.png using Guid(30837d99204c267469790c935fcc77af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6f7e137f598b8f650a395b5403adaf') in 0.006293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.742789 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/Environments
-  artifactKey: Guid(5406a61fe100b3c439cfe3758f1fc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/Environments using Guid(5406a61fe100b3c439cfe3758f1fc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a3e5cd79f27dee9aef5fc268967df9') in 0.000804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.032403 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/Environments/Meshes.fbx
-  artifactKey: Guid(32812f864ffc68f45aa97b19014b7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/Environments/Meshes.fbx using Guid(32812f864ffc68f45aa97b19014b7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987d274cf9867eee6c513586de4399eb') in 0.316743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 273
-========================================================================
-Received Import Request.
-  Time since last request: 1.873158 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/DemoScene
-  artifactKey: Guid(44ab6ebe5d86158409e685d3110a8c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/DemoScene using Guid(44ab6ebe5d86158409e685d3110a8c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aef81ec194e767f37d65622f6fc75ea') in 0.001125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.038560 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/DemoScene/DemoScene.fbx
-  artifactKey: Guid(f184ba4911fbaaa4195a4f967a69e3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Meshes/DemoScene/DemoScene.fbx using Guid(f184ba4911fbaaa4195a4f967a69e3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cd6c95b491c680b6ac5a09bd74f913') in 0.310187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 318
-========================================================================
-Received Import Request.
-  Time since last request: 10.819792 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments
-  artifactKey: Guid(aa50052c471ecdb43970d0115bb3a704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments using Guid(aa50052c471ecdb43970d0115bb3a704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b605a5a9e3d4b5ac2fd625c96925367d') in 0.001343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.043501 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Grass-1.mat
-  artifactKey: Guid(34b0f56bfe7f4f249a90646158c51028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Grass-1.mat using Guid(34b0f56bfe7f4f249a90646158c51028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4826faa6e1d5c9c739f11378ba6ff7') in 0.012836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Stone-1.mat
-  artifactKey: Guid(d742b67c3d5e5f44ebe4f2553652d5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Stone-1.mat using Guid(d742b67c3d5e5f44ebe4f2553652d5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f695c640e8aab3a94484bc5f1294ec3e') in 0.004947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-1.mat
-  artifactKey: Guid(2c09ef49c13be054891579dd4de949de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-1.mat using Guid(2c09ef49c13be054891579dd4de949de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cd8389befd0144683778aff3a4c6fa') in 0.003984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-6.mat
-  artifactKey: Guid(228d3ebd5ea75474e9e2536eaabc8a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-6.mat using Guid(228d3ebd5ea75474e9e2536eaabc8a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085c7f5d1cf3badc2eaa7b4d7e658323') in 0.003828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-9.mat
-  artifactKey: Guid(a981f91f7749c814bae01f18e53d2a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-9.mat using Guid(a981f91f7749c814bae01f18e53d2a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c729096100a8f46ca2266805014361') in 0.003637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-3.mat
-  artifactKey: Guid(5a7e3987da126b3448d7e55a9ec0fe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-3.mat using Guid(5a7e3987da126b3448d7e55a9ec0fe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039bb7109c0eabb106ae4d23ba64d9cb') in 0.005646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Terrain-3.mat
-  artifactKey: Guid(3e286d3a961ac6d4bb715589537a3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Terrain-3.mat using Guid(3e286d3a961ac6d4bb715589537a3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62b8491999509b137d2acf36a8108e4') in 0.003693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Terrain-1.mat
-  artifactKey: Guid(130ece05034e8344992e207b56a66bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Terrain-1.mat using Guid(130ece05034e8344992e207b56a66bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0678c6c75ac1d9d5de6c31ac32973e9') in 0.004607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-4.mat
-  artifactKey: Guid(4bca999ab1da9294ea5d575e41073b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-4.mat using Guid(4bca999ab1da9294ea5d575e41073b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e5906d476bd2275af0f4da44c2fbe5') in 0.003765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-2.mat
-  artifactKey: Guid(f630717f81f57464b8e873cba8340d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-2.mat using Guid(f630717f81f57464b8e873cba8340d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1a0d8f6a285eeea2433db9d4e49927') in 0.004905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ocean.mat
-  artifactKey: Guid(b10ef4f07ce157c499f1eff989a7614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ocean.mat using Guid(b10ef4f07ce157c499f1eff989a7614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c7ff6643589c71b358c84dc39facdd') in 0.003753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Terrain-4.mat
-  artifactKey: Guid(151dc79f21cceaf42a271efb37da099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Terrain-4.mat using Guid(151dc79f21cceaf42a271efb37da099c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180301f90ff6e31c5b1f0c43dc9c764f') in 0.004366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-2.mat
-  artifactKey: Guid(fab313412e0d2c74789fda3ec4afed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-2.mat using Guid(fab313412e0d2c74789fda3ec4afed43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1e586fb7da19d33b28e7e07503c16c') in 0.003314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-8.mat
-  artifactKey: Guid(49b91a815dee8974d9439e1311858a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-8.mat using Guid(49b91a815dee8974d9439e1311858a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f86ba83a0b831876723500618ab0e2') in 0.005329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-5.mat
-  artifactKey: Guid(5545c155a6153ed4098064cd72797dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-5.mat using Guid(5545c155a6153ed4098064cd72797dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2646a8466f03fca71ddccec3c6d04b') in 0.003985 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-4.mat
-  artifactKey: Guid(b0005086df78d8745981ed1d06db52a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-4.mat using Guid(b0005086df78d8745981ed1d06db52a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1626e740a1726e18dcec222dafd2acec') in 0.006870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-4.mat
-  artifactKey: Guid(d7490659138a0154da86c55a554012eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-4.mat using Guid(d7490659138a0154da86c55a554012eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056cf9223efc90ab29da4a219d556245') in 0.003405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-1.mat
-  artifactKey: Guid(ab6e2fd1d942a394b9c0e3ce70d9ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-1.mat using Guid(ab6e2fd1d942a394b9c0e3ce70d9ad63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645b9217088ea3d8cdc79e69d2263fb9') in 0.004323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-7.mat
-  artifactKey: Guid(8b1f7c9e230f99f46a4e2c246a99f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Props-7.mat using Guid(8b1f7c9e230f99f46a4e2c246a99f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e13e6865f639b3d0ba2e4112ffa2fef') in 0.003369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-1.mat
-  artifactKey: Guid(00e34802479f9fd459b030739febd8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-1.mat using Guid(00e34802479f9fd459b030739febd8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea544ffdc96dd73155f9c3449028678') in 0.005629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-2.mat
-  artifactKey: Guid(14562ff1e56b3424c83b07a3e25b9414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Tree-2.mat using Guid(14562ff1e56b3424c83b07a3e25b9414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db01c570f10dded54c872d3bd95f2acd') in 0.003446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-3.mat
-  artifactKey: Guid(de715bd0e61c62a4cadff578735a5794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Art/Materials/Environments/Ground-3.mat using Guid(de715bd0e61c62a4cadff578735a5794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc0fffc451ccfe7e826cef0e5698f68') in 0.003772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 66.933614 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Stone_2.prefab
-  artifactKey: Guid(6489ddf5157f65840adb429c54b450ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Stone_2.prefab using Guid(6489ddf5157f65840adb429c54b450ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6be732fadec0ba8f4536eb202e07130') in 0.023485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Tree_1.prefab
-  artifactKey: Guid(900020bfbf6587d4585d9a2820e456f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Tree_1.prefab using Guid(900020bfbf6587d4585d9a2820e456f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d580a4af9214751787d52567a599bf5') in 0.016422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Tip_Board_1.prefab
-  artifactKey: Guid(3007f24466db0fb43b9ec398808a54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Tip_Board_1.prefab using Guid(3007f24466db0fb43b9ec398808a54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67fb8c9947974d42da4e73539fa20a5') in 0.008276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Tree_2.prefab
-  artifactKey: Guid(68c7915e0967e9c4997abb068bcb6ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Prefabs/Environments/Tree_2.prefab using Guid(68c7915e0967e9c4997abb068bcb6ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655eb79e63b32af80087c01704fab62f') in 0.007952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.671 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.860 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.834 seconds
-Domain Reload Profiling: 2506ms
-	BeginReloadAssembly (284ms)
+- Finished resetting the current domain, in  1.976 seconds
+Domain Reload Profiling: 2837ms
+	BeginReloadAssembly (352ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
+		DisableScriptedObjects (36ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (71ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (396ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (523ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1835ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1977ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1169ms)
+		SetupLoadedEditorAssemblies (1287ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (950ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (1056ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (30.6 KB). Loaded Objects now: 3608.
-Memory consumption went from 130.2 MB to 130.1 MB.
-Total: 2.795041 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.079916 ms MarkObjects: 2.430292 ms  DeleteObjects: 0.047250 ms)
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3564.
+Memory consumption went from 131.7 MB to 131.6 MB.
+Total: 4.329625 ms (FindLiveObjects: 0.229333 ms CreateObjectMapping: 0.072625 ms MarkObjects: 3.948208 ms  DeleteObjects: 0.078875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76.615616 seconds.
+  path: Assets/Scripts/RotatingTrap.cs
+  artifactKey: Guid(25a04e45d38e44b38acdaa4aaf510fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotatingTrap.cs using Guid(25a04e45d38e44b38acdaa4aaf510fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bced806216657d4218118e7f848a826') in 0.019606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.753 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.832 seconds
+Domain Reload Profiling: 2587ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (456ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (982ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3567.
+Memory consumption went from 136.4 MB to 136.3 MB.
+Total: 3.349916 ms (FindLiveObjects: 0.191708 ms CreateObjectMapping: 0.069458 ms MarkObjects: 3.035125 ms  DeleteObjects: 0.052791 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.866 seconds
+Domain Reload Profiling: 2607ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (41ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (447ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (960ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.8 KB). Loaded Objects now: 3570.
+Memory consumption went from 141.3 MB to 141.2 MB.
+Total: 4.156125 ms (FindLiveObjects: 0.221167 ms CreateObjectMapping: 0.074834 ms MarkObjects: 3.455250 ms  DeleteObjects: 0.404250 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

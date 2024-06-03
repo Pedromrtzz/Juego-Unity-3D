@@ -360,7 +360,7 @@
 "Assets/Scripts/PlataformaCaer.cs"
 "Assets/Scripts/RotatingTrap.cs"
 "Assets/Scripts/TiltingPlatform.cs"
-"Assets/Scripts/Trampolín.cs"
+"Assets/Scripts/Trampolín.cs"
 -langversion:9.0
 /deterministic
 /optimize+
