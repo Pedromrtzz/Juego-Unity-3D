@@ -80,6 +80,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
     <Compile Include="Assets/POLY STYLE - Platformer Starter Pack/Platformer Starter Pack_URP/Scripts/SimpleCameraController.cs" />
+    <Compile Include="Assets/Scripts/TroncoMovimiento.cs" />
     <Compile Include="Assets/Scripts/TiltingPlatform.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
