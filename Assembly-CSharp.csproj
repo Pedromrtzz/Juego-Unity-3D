@@ -67,6 +67,7 @@
     <Compile Include="Assets/Scripts/Trampolín.cs" />
     <Compile Include="Assets/Scripts/MovimientoPersonaje.cs" />
     <Compile Include="Assets/Scripts/PingpONG.cs" />
+    <Compile Include="Assets/Scripts/CheckPoints.cs" />
     <Compile Include="Assets/Scripts/Pies.cs" />
     <Compile Include="Assets/Scripts/MazoAsesino.cs" />
     <Compile Include="Assets/Scripts/Muerte.cs" />

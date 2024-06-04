@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{6E85DF46-EFE9-A13F-EE18-4289498D5609}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PingpONG.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CheckPoints.cs">
     <Files>
       <File FileName="Assets/Scripts/MovimientoPersonaje.cs" Line="58" Column="38" />
       <File FileName="Assets/Scripts/Pies.cs" />
@@ -9,7 +9,8 @@
       <File FileName="Assets/Scripts/Muerte.cs" Line="24" Column="1" />
       <File FileName="Assets/Scripts/PlataformaCaer.cs" Line="63" Column="1" />
       <File FileName="Assets/Scripts/Trampolín.cs" Line="25" Column="1" />
-      <File FileName="Assets/Scripts/PingpONG.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/PingpONG.cs" Line="21" Column="1" />
+      <File FileName="Assets/Scripts/CheckPoints.cs" Line="7" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +18,7 @@
           <Node name="juego-unity-3d" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PingpONG.cs" selected="True" />
+                <Node name="CheckPoints.cs" selected="True" />
               </Node>
             </Node>
           </Node>
