@@ -364,6 +364,7 @@
 "Assets/Quantum Tek/Simple Menu/Scripts/SM_TabGroup.cs"
 "Assets/Quantum Tek/Simple Menu/Scripts/SM_TabWindow.cs"
 "Assets/Quantum Tek/Simple Menu/Scripts/SM_Window.cs"
+"Assets/Scripts/CambiarEscena.cs"
 "Assets/Scripts/CheckPoints.cs"
 "Assets/Scripts/MazoAsesino.cs"
 "Assets/Scripts/MovimientoPersonaje.cs"
