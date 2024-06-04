@@ -15,17 +15,24 @@ public class Muerte : MonoBehaviour
             if (transform.parent != null)
             {
                 Debug.Log("ObjetoLetal detectado. Desactivando el GameObject padre: " + transform.parent.gameObject.name);
-                transform.parent.gameObject.SetActive(false);
+                Respawn();
             }
             else
             {
                 Debug.Log("ObjetoLetal detectado. Desactivando el GameObject: " + gameObject.name);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                Respawn();
             }
         }
         else
         {
             Debug.Log("El objeto colisionado no tiene la etiqueta 'ObjetoLetal'.");
         }
+    }
+
+    private void Respawn()
+    {
+        Vector3 checkpointPosition = GameManager.Instance.GetCheckpoint();
+        transform.position = checkpointPosition;
+        Debug.Log("Jugador teletransportado al último checkpoint en: " + checkpointPosition);
     }
 }
