@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Quantum Tek/Simple Menu/Scenes/Simple Main Menu Demo.unity
+- path: Assets/Scenes/Level1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
