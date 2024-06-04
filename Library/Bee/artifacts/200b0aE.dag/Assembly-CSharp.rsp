@@ -376,6 +376,7 @@
 "Assets/Scripts/RotatingTrap.cs"
 "Assets/Scripts/TiltingPlatform.cs"
 "Assets/Scripts/Trampolín.cs"
+"Assets/Scripts/TroncoMovimiento.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
