@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{6E85DF46-EFE9-A13F-EE18-4289498D5609}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TroncoMovimiento.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CambiarEscena.cs">
     <Files>
       <File FileName="Assets/Scripts/Muerte.cs" Line="39" Column="1" />
-      <File FileName="Assets/Scripts/PlataformaCaer.cs" Line="63" Column="1" />
-      <File FileName="Assets/Scripts/Trampolín.cs" Line="25" Column="1" />
-      <File FileName="Assets/Scripts/PingpONG.cs" Line="21" Column="1" />
-      <File FileName="Assets/Scripts/CambiarEscena.cs" Line="10" Column="59" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="29" Column="39" />
-      <File FileName="Assets/Scripts/CheckPoint.cs" Line="13" Column="73" />
-      <File FileName="Assets/Scripts/TroncoMovimiento.cs" Line="5" Column="18" />
+      <File FileName="Assets/Scripts/PlataformaCaer.cs" />
+      <File FileName="Assets/Scripts/Trampolín.cs" />
+      <File FileName="Assets/Scripts/PingpONG.cs" />
+      <File FileName="Assets/Scripts/CambiarEscena.cs" Line="12" Column="39" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/CheckPoint.cs" />
+      <File FileName="Assets/Scripts/TroncoMovimiento.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="juego-unity-3d" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="TroncoMovimiento.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ac095197-72a4-4077-b361-fb2be5a77ed2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="76563711-9208-4ced-809a-f9c548b2b9c8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
