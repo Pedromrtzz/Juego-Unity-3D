@@ -12,10 +12,4 @@ public class CambiarEscena : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
-    // M?todo opcional para salir del juego
-    public void QuitGame()
-    {
-        Debug.Log("Game is exiting...");
-        Application.Quit();
-    }
 }
