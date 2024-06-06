@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class RollingLog : MonoBehaviour
 {
@@ -43,8 +44,7 @@ public class RollingLog : MonoBehaviour
 
     private IEnumerator RestartLog()
     {
-        // Hide the log
-        gameObject.SetActive(false);
+        Debug.Log("Tronco alcanz? el punto final y se ocultar?.");
 
         // Wait for a delay before restarting
         yield return new WaitForSeconds(delayBeforeRestart);
@@ -52,8 +52,7 @@ public class RollingLog : MonoBehaviour
         // Reset position to start point
         transform.position = startPoint.position;
 
-        // Show the log
-        gameObject.SetActive(true);
+        Debug.Log("Tronco reaparece en el punto de inicio.");
 
         // Start moving again
         isMoving = true;
