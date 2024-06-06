@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TroncoMovimiento : MonoBehaviour
+public class RollingLog : MonoBehaviour
 {
     public Transform startPoint;
     public Transform endPoint;
     public float speed = 2.0f;
     public float rotationSpeed = 100.0f;
+    public float delayBeforeRestart = 2.0f;  // Delay before the log reappears at the start point
 
     private Vector3 direction;
-    private bool isReturning = false;
+    private bool isMoving = true;
 
     void Start()
     {
@@ -23,31 +24,38 @@ public class TroncoMovimiento : MonoBehaviour
 
     void Update()
     {
-        // Move the log
-        if (!isReturning)
+        if (isMoving)
         {
+            // Move the log
             transform.position += direction * speed * Time.deltaTime;
+
+            // Rotate the log to simulate rolling
+            transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
 
             // Check if the log has reached the end point
             if (Vector3.Distance(transform.position, endPoint.position) < 0.1f)
             {
-                isReturning = true;
-                direction = -direction;  // Reverse direction
+                isMoving = false;
+                StartCoroutine(RestartLog());
             }
         }
-        else
-        {
-            transform.position += direction * speed * Time.deltaTime;
+    }
 
-            // Check if the log has returned to the start point
-            if (Vector3.Distance(transform.position, startPoint.position) < 0.1f)
-            {
-                isReturning = false;
-                direction = -direction;  // Reverse direction
-            }
-        }
+    private IEnumerator RestartLog()
+    {
+        // Hide the log
+        gameObject.SetActive(false);
 
-        // Rotate the log to simulate rolling
-        transform.Rotate(Vector3.forward, rotationSpeed * Time.deltaTime);
+        // Wait for a delay before restarting
+        yield return new WaitForSeconds(delayBeforeRestart);
+
+        // Reset position to start point
+        transform.position = startPoint.position;
+
+        // Show the log
+        gameObject.SetActive(true);
+
+        // Start moving again
+        isMoving = true;
     }
 }
