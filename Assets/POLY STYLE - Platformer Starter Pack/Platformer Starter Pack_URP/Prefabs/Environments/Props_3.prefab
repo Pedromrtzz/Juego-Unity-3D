@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2997389546019994752}
   m_Layer: 0
   m_Name: Props_3
-  m_TagString: Untagged
+  m_TagString: ObjetoLetal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
