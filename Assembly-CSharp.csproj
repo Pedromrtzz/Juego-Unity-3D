@@ -67,8 +67,8 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/Quantum Tek/Simple Menu/Scripts/SM_OptionList.cs" />
-    <Compile Include="Assets/Quantum Tek/Simple Menu/Scripts/SM_TabWindow.cs" />
     <Compile Include="Assets/Quantum Tek/Simple Menu/Scripts/SM_Bar.cs" />
+    <Compile Include="Assets/Quantum Tek/Simple Menu/Scripts/SM_TabWindow.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
