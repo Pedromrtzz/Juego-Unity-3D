@@ -2879,7 +2879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a04e45d38e44b38acdaa4aaf510fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 300
+  rotationSpeed: 215
 --- !u!1001 &152760076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7607,7 +7607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a04e45d38e44b38acdaa4aaf510fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 400
+  rotationSpeed: 200
 --- !u!1001 &457543889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12008,7 +12008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a04e45d38e44b38acdaa4aaf510fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 430
+  rotationSpeed: 200
 --- !u!1001 &729120472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24349,7 +24349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a04e45d38e44b38acdaa4aaf510fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 335
+  rotationSpeed: 225
 --- !u!1 &1456146978
 GameObject:
   m_ObjectHideFlags: 0
@@ -28459,7 +28459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a04e45d38e44b38acdaa4aaf510fe0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 370
+  rotationSpeed: 210
 --- !u!1001 &1706670080
 PrefabInstance:
   m_ObjectHideFlags: 0
